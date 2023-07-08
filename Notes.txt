@@ -1,0 +1,24 @@
+ANIMATIONS:
+Cut/Copy/Paste Animation - https://codemyui.com/cut-copy-paste-micro-interaction-animation/
+
+MENU:
+https://codemyui.com/split-in-half-text-animation/
+https://codemyui.com/neon-text-flickering-effect/
+https://codemyui.com/3d-responsive-isometric-grid-ecommerce-layout/
+
+LOGO/NAME:
+https://codemyui.com/scan-text-coming-focus-animation/
+
+FOOTER:
+https://codemyui.com/pure-css-direction-sensitive-flip-hover/
+
+CARDS:
+https://codemyui.com/3d-flip-hover-animation-service-blocks/
+
+BUTTON:
+https://codemyui.com/3d-hover-effect-button/
+
+OPTIONAL:
+
+- Cookie Modal - https://codemyui.com/animated-cookie-consent-modal-form/
+- Gamified Popup - https://codemyui.com/retro-yes-no-popup-dialog-box/

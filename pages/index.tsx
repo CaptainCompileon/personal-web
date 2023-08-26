@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {AiFillLinkedin, AiFillRedditCircle, AiFillTwitterCircle} from "react-icons/ai";
 import devadam from "../public/devadam.jpg";
 import React from "react";
 import Spline from '@splinetool/react-spline';
+import LightSwitch from "@/components/ligh-switch/light-switch";
 
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
           <h1 className="text-xl font-burtons">developedbyadam</h1>
           <ul className="flex items-center z-10">
             <li>
-              <BsFillMoonStarsFill className="cursor-pointer" onClick={() => setDarkMode(!darkMode)}/>
+              <LightSwitch classes="cursor-pointer" onClickFn={() => setDarkMode(!darkMode)}></LightSwitch>
             </li>
             <li>
               <a

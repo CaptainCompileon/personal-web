@@ -20,7 +20,7 @@ export default function Home() {
     <main className={darkMode ? "dark bg-gray-700 text-white" : "bg-white"}>
       <div className="w-full h-screen bg-cover bg-center relative">
         {/* <iframe src='https://my.spline.design/infinityblubscopy-85ff1657b94d167ceaff8df5b80dd006/' className="w-full md:w-3/5  h-screen bg-cover bg-center absolute z-1"></iframe> */}
-        {/* <iframe src='https://my.spline.design/gradientwaves-39d7e126a4da36e196ee400558b0d644/' className="w-full h-screen bg-cover bg-center absolute z-1"></iframe> */}
+        <iframe src='https://my.spline.design/gradientwaves-39d7e126a4da36e196ee400558b0d644/' className="w-full h-screen bg-cover bg-center absolute z-1"></iframe>
         {/* <iframe src='https://my.spline.design/light-d3501e273d770cdcb66a280113e41049/' className="w-full h-screen bg-cover bg-center absolute z-1"></iframe> */}
         {showCursor && <MotionCursor />}
         <section
@@ -68,13 +68,13 @@ export default function Home() {
             <AiFillRedditCircle />
           </div>
         </section>
-
+      </div>
+      <div className="w-full h-screen bg-cover bg-center relative">
         <iframe
-          className="w-full h-screen"
           src="https://my.spline.design/digitalpass-70f88a769b765a0720734dfa0956bec4/"
           frameBorder="0"
-          width="100%"
-          height="1005"
+          width="30%"
+          height="50%"
           style={{ cursor: "auto" }}
         ></iframe>
       </div>

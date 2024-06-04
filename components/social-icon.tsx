@@ -9,7 +9,7 @@ const SocialIcon = forwardRef<HTMLAnchorElement, SocialIconProps>(
   (props, ref) => (
     <a
       ref={ref}
-      className="magnet bg-gradient-to-r from-cyan-500 to-teal-500 text-white p-2 rounded-full"
+      className="bg-white opacity-90 text-white rounded-lg"
       href={props.link}
     >
       {props.children}

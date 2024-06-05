@@ -7,13 +7,16 @@ import {
 import React, { useEffect, useRef, useState } from "react";
 import LightSwitch from "@/components/ligh-switch/light-switch";
 import MotionCursor from "@/components/motion-cursor";
-import IntroductionSection from "@/components/introduction-section";
+import IntroductionSection from "@/components/sections/introduction-section";
 import SocialIcon from "@/components/social-icon";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "@/components/preloader";
-import Image from 'next/image'
-import profilePic from '../public/cv.png'
-
+import Image from "next/image";
+import profilePic from "../public/cv.png";
+import ExperienceSection from "@/components/sections/experience-section";
+import EducationSection from "@/components/sections/education-section";
+import ProjectsSection from "@/components/sections/projects-section";
+import Footer from "@/components/footer";
 
 export default function Home() {
   // console.log(MyPDF)
@@ -101,13 +104,13 @@ export default function Home() {
               </p>
             </div>
             <div className=" text-3xl md:text-5xl flex justify-center gap-8 md:gap-16 py-3 text-[#e23237] z-10 dark:text-[#e23237]">
-
               <SocialIcon link="https://linkedin.com">
-                <AiFillLinkedin color="#000"/>
+                <AiFillLinkedin color="#000" />
               </SocialIcon>
-              
-              <a href='/cv.png' download><Image src={profilePic} alt="Download Icon"/></a>
 
+              <a href="/cv.png" download>
+                <Image src={profilePic} alt="Download Icon" />
+              </a>
             </div>
           </div>
         </section>
@@ -115,6 +118,16 @@ export default function Home() {
       <div className="w-full min-h-screen bg-cover bg-center relative">
         <IntroductionSection />
       </div>
+      <div className="w-full min-h-screen bg-cover bg-center relative">
+        <ExperienceSection />
+      </div>
+      <div className="w-full min-h-screen bg-cover bg-center relative">
+        <EducationSection />
+      </div>
+      <div className="w-full min-h-screen bg-cover bg-center relative">
+        <ProjectsSection />
+      </div>
+      <Footer />
     </main>
   );
 }

@@ -6,6 +6,10 @@ const ExperienceSection = () => {
       id="experience"
       className="min-h-screen flex flex-col justify-center items-center bg-gray-200 text-gray-800 py-16"
     >
+      <iframe
+          src="https://my.spline.design/scrollbasedinteracvtivemacbookpro-768976bf34fc2644ee86e2b83f9f8628/"
+          className="bg-center w-[50%] h-[35%]"
+        ></iframe>
       <h2 className="text-5xl font-bold mb-12">Experience</h2>
       <div className="max-w-6xl w-full px-6">
         <div className="space-y-12">

@@ -54,7 +54,7 @@ export default function Header({ setDarkMode, darkMode }: HeaderProps) {
       >
         <div className="flex w-full flex-wrap items-center justify-between px-3">
           <div className="ms-2">
-            <a className="text-xl text-black dark:text-white font-burtons" href="#">
+            <a className="text-xl text-black transition duration-400 dark:text-white font-burtons" href="#">
             developedbyadam
             </a>
           </div>

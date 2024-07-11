@@ -29,7 +29,7 @@ const IntroductionSection: React.FC = () => {
       </div>
 
       {/* Right Column - Technologies */}
-      <div className="flex flex-col items-center basis-1/3 xl:basis-1/2 justify-center xl:h-1/3 w-full text-center">
+      <div className="flex flex-col transition duration-200 items-center basis-1/3 xl:basis-1/2 justify-center xl:h-1/3 w-full text-center">
       
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Hello, I&apos;m{" "}
